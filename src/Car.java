@@ -24,4 +24,10 @@ public class Car {
         this.paintColor = inputPaintColor;
         this.areTailightsWorking = inputAreTailightsWorking;
     }
+
+    // method: change paint color
+    // void means never return any value
+    public void changePaintColor(Color newPaintColor) {
+        this.paintColor = newPaintColor;
+    }
 }
