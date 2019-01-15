@@ -1,3 +1,4 @@
+import java.lang.reflect.Array;
 import java.util.Arrays;
 
 public class ArrayTutorial {
@@ -15,5 +16,9 @@ public class ArrayTutorial {
         Arrays.sort(sorted);
         System.out.println("Sorted!");
         System.out.println(Arrays.toString(sorted));
+
+        // get method
+        System.out.println("Print index 2:");
+        System.out.println(Array.get(numbers, 2));
     }
 }

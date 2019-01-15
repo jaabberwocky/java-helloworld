@@ -30,4 +30,12 @@ public class Car {
     public void changePaintColor(Color newPaintColor) {
         this.paintColor = newPaintColor;
     }
+
+    // method : allow car to speed up
+    public double speedingUp(double currentSpeed) {
+        // have current speed incremented by 100
+        currentSpeed += 100;
+        return currentSpeed;
+    }
+
 }

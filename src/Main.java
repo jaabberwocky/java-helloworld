@@ -18,5 +18,10 @@ public class Main {
         System.out.println(myCar.paintColor);
         myCar.changePaintColor(Color.RED);
         System.out.println("My car's new paint color is now: " + myCar.paintColor);
+
+        // increase speed : showing call by value instead of call by reference
+        double myCarSpeed = 50;
+        double myNewCarSpeed = myCar.speedingUp(myCarSpeed);
+        System.out.println(myNewCarSpeed);
     }
 }
